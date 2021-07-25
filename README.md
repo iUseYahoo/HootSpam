@@ -1,5 +1,5 @@
 ### Hoot Spam Open Source
--Status: Working.
+- Status: Working.
 
 ### Software Needed
 - [Nodejs](https://nodejs.org/en/download/)
