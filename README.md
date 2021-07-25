@@ -4,7 +4,7 @@
 - [Nodejs](https://nodejs.org/en/download/)
 
 ### NPM Packages Needed
-- npm kahoot-spammer
+- npm i kahoot-spammer
 
 ### NPM Packages Sources
 - [kahoot-spammer](https://www.npmjs.com/package/kahoot-spammer)
