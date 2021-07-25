@@ -3,7 +3,6 @@
 const KahootSpam = require('kahoot-spammer')
 const chalk = require('chalk');
 const log = console.log;
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 const ReadLine = require("readline").createInterface({
     input: process.stdin,
     output: process.stdout
@@ -31,10 +30,6 @@ async function Main(){
             let api = KahootSpam
             api.spam(kahootcode, username, i)
             console.log(`[${i}] joined ${kahootcode} as ${username}`)
-            
-            setTimeout(function(){
-                
-            },0250);
         }
     })
 };
