@@ -7,7 +7,6 @@
         <img src="https://img.shields.io/badge/Status-Working-green">
     </a>
 </p>
-- Status: Working.
 
 ### Software Needed
 - [Nodejs](https://nodejs.org/en/download/)
