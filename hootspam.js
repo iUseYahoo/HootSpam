@@ -33,3 +33,5 @@ async function Main(){
 Main().catch(error => {
     console.error(error)
   })
+
+// Kahoot Spammer package from https://github.com/tthomxs
