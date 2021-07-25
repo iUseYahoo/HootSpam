@@ -22,16 +22,16 @@ log(chalk.blueBright(`==========================================================
 =                                                                                      =
 ========================================================================================`))
 
-async function Main(){
-    ReadLine.question("Kahoot Code: ", KC =>{
+async function Main() {
+    ReadLine.question("Kahoot Code: ", KC => {
         kahootcode = KC
-        
+
         let api = KahootSpam
         api.spam(kahootcode, username, amount);
     })
 };
 Main().catch(error => {
     console.error(error)
-  })
+})
 
 // Kahoot Spammer package from https://github.com/tthomxs
