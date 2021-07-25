@@ -1,3 +1,4 @@
+// You need to run this command: npm i kahoot-spammer -g
 const KahootSpam = require('kahoot-spammer')
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 const ReadLine = require("readline").createInterface({
